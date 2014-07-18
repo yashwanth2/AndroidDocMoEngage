@@ -191,5 +191,27 @@ parent activity name is needed if you want to redirect the user to a particular 
 	</activity>
 
 
+##Testing event tracking after integration
+To test event tracking, first you need to login to the MoEngage portal with the credentials provided for your app.
+
+After adding event tracking in the app as shown in the guide above, you can visit "For Developers" (http://app.moengage.com/latestActivity) link through the MoEngage portal to check whether the events are being tracked, as you use.
+
+As users use the application, events data is stored locally and sent in regular intervals of 30 seconds to avoid any performance impact. So, you might need to wait for sometime to see the events in the portal.
+
+##Testing Push notifications after integration
+
+You can either send the build to MoEngage team for testing the push notifications (or) follow the below process:
+
+Please set your GCM Authorization key by visiting 'Settings' (http://app.moengage.com/account) link on the MoEngage portal to test the push notifications.
+
+You can create a push notification campaign through 'Create Campaign' (http://app.moengage.com/newpushcampaign).
+If this is the first time you are testing MoEngage SDK, you can just set a test message, set the scheduling to run 'as soon as possible' and create the campaign.
+
+If you have a login in your app, you can also create a campaign targeting only your device by setting the filters based on user attributes.
+
+You should be able to receive the push notification, once the campaign is created.
+
+
+
 
 
