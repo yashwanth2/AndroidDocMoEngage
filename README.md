@@ -67,7 +67,7 @@ Gcm ids are refreshed after every update, to handle that please put the followin
     	</intent-filter>
 	</receiver>
 
-##Initialize your app withe MoEngage
+##Initialize your app with MoEngage
 Put the following code in the first activity onCreate() method
 
     MoEHelper mHelper = new MoEHelper(this);
